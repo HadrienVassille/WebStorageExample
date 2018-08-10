@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 : Web Storage</title>
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+
+<h1>Demo Web Storage - Session Storage</h1>
+
+<div id="wrap">
+
+
+    <p> The content of the message is saved in the sessionStorage (event:onchange)</p>
+
+    <p><label for="message">Write a message in the textarea</label></p>
+    <p><textarea id="message" name="message" onchange="sessionStorage.message=this.value"></textarea></p>
+
+    <p class="hint">Try it : Load the page to get back the value from the sessionStorage</p>
+
+</div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
